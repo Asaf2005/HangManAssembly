@@ -592,16 +592,9 @@ start:
     
     
     call main_game
-    ;call draw_head
-     
-    
-    
-   ; mov cx, 10
-   ;est:
-   ; call get_letter
-   ; loop est
-   ; mov ax, 4c00h ; exit to operating system.
-   ; int 21h    
+
+   mov ax, 4c00h ; exit to operating system.
+   int 21h    
 ends
 
 end start ; set entry point and stop the assembler.
