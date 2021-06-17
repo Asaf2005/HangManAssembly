@@ -2,8 +2,6 @@
 
 data segment
     ; add your data here!
-    white equ 0
-    black equ 15
     wordsFile db "words.txt"
     FileHandle dw 0
     buffer db 255 dup (0)
